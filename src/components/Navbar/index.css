@@ -1,0 +1,42 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px;
+  border-bottom: 1.5px solid #64748b;
+}
+.website-logo {
+  width: 50px;
+}
+.options-list {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+.option-link {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.option {
+  list-style: none;
+  margin-right: 15px;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.toggle-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.light-mode-text {
+  color: #171f46;
+}
+.dark-mode-text {
+  color: #ffffff;
+}
+.navbar-light-mode {
+  background-color: #333333;
+  border: none;
+}
